@@ -1,0 +1,17 @@
+.categoryItem {
+  @apply overflow-hidden relative justify-end cursor-pointer capitalize flex flex-col bg-white h-96 z-50 object-cover text-white;
+  &:nth-child(1) {
+    @apply w-full mb-4;
+  }
+  &:nth-child(2),
+  &:nth-child(3),
+  &:nth-child(4) {
+    @apply sm:w-custom-31 sm:mb-20 w-full mb-4;
+  }
+  &:nth-child(5) {
+    @apply sm:w-custom-31 w-full mb-4;
+  }
+  &:nth-child(6) {
+    @apply sm:w-custom-66 w-full sm:mb-4;
+  }
+}
