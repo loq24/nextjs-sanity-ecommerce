@@ -5,9 +5,9 @@ A [Next.js](https://nextjs.org/) E-commerce app with [Sanity.io](https://www.san
 Demo live at: [nextjs-sanity-ecommerce-loq24.vercel.app](https://nextjs-sanity-ecommerce-loq24.vercel.app/)
 
 
-## Run minimal version locally
+## Run the app locally
 
-> To run a minimal version of Next.js Sanity E-commerce you can start with the default local provider `@vercel/commerce-local` that has disabled all features (cart, auth) and use static files for the backend
+> To run this app locally, you need to have [Sanity.io](https://www.sanity.io/) and [Stripe](https://stripe.com/) accounts. 
 
 
 To learn more about Next.js, take a look at the following resources:
