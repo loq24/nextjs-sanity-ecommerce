@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+A [Next.js](https://nextjs.org/) E-commerce app with [Sanity.io](https://www.sanity.io/) and [Stripe API](https://stripe.com/)
 
 ## Getting Started
 
