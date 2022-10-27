@@ -1,4 +1,4 @@
-A [Next.js](https://nextjs.org/) E-commerce app with [Sanity.io](https://www.sanity.io/) and [Stripe API](https://stripe.com/). Built with [TailwindCSS](https://tailwindcss.com/) CSS framework & [SASS](https://sass-lang.com/) CSS extension.
+A [Next.js](https://nextjs.org/) E-commerce app with [Sanity.io](https://www.sanity.io/) and [Stripe API](https://stripe.com/). Built with [TailwindCSS](https://tailwindcss.com/) framework & [SASS](https://sass-lang.com/) CSS extension.
 
 ## Getting Started
 
