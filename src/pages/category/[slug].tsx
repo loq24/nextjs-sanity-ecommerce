@@ -27,7 +27,13 @@ const Category: React.FC<CategoryProps> = ({ products, category }) => {
         {category.description && (
           <p className="paragraph">{category.description}</p>
         )}
-        {products && <ProductList products={products} />}
+        {products.length > 0 ? (
+          <ProductList products={products} />
+        ) : (
+          <p className="font-semibold">
+            Awww! All {title} products are sold out!
+          </p>
+        )}
       </div>
     </>
   );
