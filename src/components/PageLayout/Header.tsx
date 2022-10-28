@@ -29,7 +29,9 @@ const Header = () => {
                 </Link>
               </li>
               <li>
-                <a href="https://github.com/loq24/react-woocommerce">Github</a>
+                <a href="https://github.com/loq24/nextjs-sanity-ecommerce">
+                  Github
+                </a>
               </li>
             </ul>
           </nav>
