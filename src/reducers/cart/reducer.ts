@@ -114,5 +114,9 @@ const updateCookie = (cartItems: CartProduct[]) => {
       }
       return cookieItems;
     }, []);
-  Cookies.set("_cart", JSON.stringify(cookieProducts), { expires: 30 });
+  Cookies.set("_cart", JSON.stringify(cookieProducts), {
+    expires: 30,
+    secure: true,
+    sameSite: "lax"
+  });
 };
