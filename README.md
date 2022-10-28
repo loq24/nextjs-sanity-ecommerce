@@ -4,7 +4,7 @@ A [Next.js](https://nextjs.org/) E-commerce app with [Sanity.io](https://www.san
 
 Demo live at: [nextjs-sanity-ecommerce-loq24.vercel.app](https://nextjs-sanity-ecommerce-loq24.vercel.app/)
 
-> Just use `4242 4242 4242 4242` as card number when paying and future `MM/YY` value and arbitrary `CVC` value
+> You may use `4242 4242 4242 4242` as card number when paying and future `MM/YY` value and arbitrary `CVC` value
 
 ## Run the app locally
 
