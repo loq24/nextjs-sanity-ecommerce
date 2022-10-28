@@ -58,7 +58,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     };
 
     if (router.asPath !== "/success") fetchCartProducts();
-  }, [router.asPath]);
+  }, []);
 
   return (
     <CartItemsContext.Provider
