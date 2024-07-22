@@ -34,15 +34,12 @@ export const cartReducer = (state: CartProduct[], action: ACTIONTYPES) => {
       ) {
         cart = state.map((product: CartProduct) => {
           if (action.payload.slug === product.slug) {
-            const quantity = product.quantity ? product.quantity : 1;
             return {
               ...product,
-              price: parseFloat(
-                (product.price + product.price / quantity).toFixed(2)
-              ),
-              quantity: quantity + 1
+              quantity: Number(product.quantity) + 1
             };
           }
+
           return product;
         });
       } else {
@@ -62,9 +59,6 @@ export const cartReducer = (state: CartProduct[], action: ACTIONTYPES) => {
               ...items,
               {
                 ...item,
-                price: parseFloat(
-                  (item.price - item.price / item.quantity).toFixed(2)
-                ),
                 quantity: item.quantity - 1
               }
             ];

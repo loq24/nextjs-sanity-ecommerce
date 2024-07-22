@@ -52,7 +52,7 @@ const Item: React.FC<ItemProps> = ({ product }) => {
         </div>
         <div className="w-1/5">
           <span className="text-lg text-gray-300">
-            ${on_sale ? sale_price : price}
+            ${(on_sale ? Number(sale_price) : price) * Number(quantity)}
           </span>
         </div>
       </div>
